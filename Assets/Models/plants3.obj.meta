@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 6165de9ae72ba4dfca7347ca0e27d668
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: AL3___Flamia12
+    100002: AL3___Floria13
+    100004: AL3___Nexia14
+    100006: AL3___Paradisia1
+    100008: AL3___Trusia16
+    100010: Alien___Rainbow_
+    100012: Alien___Trycia18
+    100014: Alien_E3___Mussa
+    100016: Alien_F1___Pikak
+    100018: Chubby_Fantastic
+    100020: //RootNode
+    400000: AL3___Flamia12
+    400002: AL3___Floria13
+    400004: AL3___Nexia14
+    400006: AL3___Paradisia1
+    400008: AL3___Trusia16
+    400010: Alien___Rainbow_
+    400012: Alien___Trycia18
+    400014: Alien_E3___Mussa
+    400016: Alien_F1___Pikak
+    400018: Chubby_Fantastic
+    400020: //RootNode
+    2300000: AL3___Flamia12
+    2300002: AL3___Floria13
+    2300004: AL3___Nexia14
+    2300006: AL3___Paradisia1
+    2300008: AL3___Trusia16
+    2300010: Alien___Rainbow_
+    2300012: Alien___Trycia18
+    2300014: Alien_E3___Mussa
+    2300016: Alien_F1___Pikak
+    2300018: Chubby_Fantastic
+    3300000: AL3___Flamia12
+    3300002: AL3___Floria13
+    3300004: AL3___Nexia14
+    3300006: AL3___Paradisia1
+    3300008: AL3___Trusia16
+    3300010: Alien___Rainbow_
+    3300012: Alien___Trycia18
+    3300014: Alien_E3___Mussa
+    3300016: Alien_F1___Pikak
+    3300018: Chubby_Fantastic
+    4300000: AL3___Flamia12
+    4300002: AL3___Floria13
+    4300004: AL3___Nexia14
+    4300006: AL3___Paradisia1
+    4300008: AL3___Trusia16
+    4300010: Alien___Rainbow_
+    4300012: Alien___Trycia18
+    4300014: Alien_E3___Mussa
+    4300016: Alien_F1___Pikak
+    4300018: Chubby_Fantastic
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 
