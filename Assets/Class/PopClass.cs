@@ -18,9 +18,11 @@ public class PopClass : MonoBehaviour {
 
 	void KillPop(){
 		for(int i = 0; i < cubes.Count; i++){
-			GameObject temp = cubes[i];
-			cubes.Remove(temp);
-			Destroy(temp);
+			if (cubes[i]!=null){
+				Destroy (cubes[i].gameObject);
+			} else {
+				cubes.Remove (cubes[i]);
+			}
 		}
 	}
 	
@@ -151,14 +153,21 @@ public class PopClass : MonoBehaviour {
 		currentpopsize = (int)sliderrefs.PopSize;
 		currentspeed = (float)sliderrefs.Speed;
 
-		if (sliderrefs.loadLesson){
-			KillPop();
+		if (sliderrefs.loadLessonPop){
+			for(int i = 0; i < cubes.Count; i++){
+				if (cubes[i]!=null){
+					Destroy (cubes[i].gameObject);
+				} else {
+					cubes.Remove (cubes[i]);
+				}
+			}
 			for(int i = 0; i < currentpopsize; i++){
 				var position = new Vector3(Random.Range(2.0f, 4.0f), Random.Range(-1.0f, 1.0f),10);
 				GameObject orgObject = (GameObject) Instantiate(orgPrefab, position, transform.rotation);
 				
 				cubes.Add(orgObject);
 			}
+			sliderrefs.loadLessonPop=false;
 		}
 
 

@@ -98,13 +98,13 @@ public class CliffGradientClass : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//check load lesson
-		if (Sliders.loadLesson){
+		if (Sliders.loadLessonBG){
 			//renderer.material.mainTexture = texture1;
 			Color[] savedPixels = premade.GetPixels();
 			tex.SetPixels(savedPixels);
 			tex.Apply();
 			//transform.renderer.material.mainTexture = premade;
-			Sliders.loadLesson = false;
+			Sliders.loadLessonBG=false;
 		}
 
 	}

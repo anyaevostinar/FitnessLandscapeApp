@@ -17,11 +17,16 @@ public class CliffGuiSliders : MonoBehaviour {
 	public Texture2D ybuttontex;
 	bool showInst = true;
 	bool showLessonInst = false;
+	public bool loadLessonBG = false;
+	public bool loadLessonPop = false;
 	
 	public void loadPremade(){
 		showLessonInst=true;
 		paused = true;
 		loadLesson = true;
+		//These two separate load lessons need to exist in order for the background and population to get loaded correctly
+		loadLessonBG = true;
+		loadLessonPop = true;
 		MutRate = 5f;
 		PopSize = 20f;
 		buttonText = "Play";
@@ -132,8 +137,8 @@ public class CliffGuiSliders : MonoBehaviour {
 		MutRate = 5.0f;
 		PopSize = 100.0f;
 		Speed = 100.0f;
-		brushSize = 20f;
-		brushColor = .5f;
+		brushSize = 30f;
+		brushColor = 0.5f;
 
 	
 	}
